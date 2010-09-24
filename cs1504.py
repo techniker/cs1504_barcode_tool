@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Copyright (c) 2009, Bjoern Heller. All rights reserved
+# Copyright (c) 2010, Bjoern Heller. All rights reserved
 # This code is licensed under GNU/ GPL
 import sys, time, datetime, serial, struct, pprint #global variables
 
