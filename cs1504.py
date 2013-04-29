@@ -243,7 +243,6 @@ class CS1504: #comm code
       t >>= 6
       s = int(t & 0x3f)
       ts = datetime.datetime(y, m, d, h, mi, s) + self.delta
-      symbology, code = expand(symbology, code)
       self.last_barcodes.append((symbology, code, ts))
     print >> sys.stderr, 'done (%d read)' % len(self.last_barcodes)
     return self.last_barcodes
